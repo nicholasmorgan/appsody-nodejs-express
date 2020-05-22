@@ -9,7 +9,7 @@ metadata:
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
     commit.stack.appsody.dev/contextDir: /incubator/nodejs-express
     commit.stack.appsody.dev/date: Tue May 5 09:04:26 2020 +0100
-    commit.stack.appsody.dev/message: 'nodejs-express: use pino-http directly (#786)'
+    commit.stack.appsody.dev/message: "nodejs-express: use pino-http directly (#786)"
     image.opencontainers.org/created: "2020-05-22T19:12:55+01:00"
     image.opencontainers.org/documentation: https://github.com/nicholasmorgan/appsody-nodejs-express
     image.opencontainers.org/revision: ee05837794192da81ac93b97ae1a764b41eeb251
@@ -33,6 +33,7 @@ metadata:
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.4.9
   name: appsodytest
+  namespace: appsody-tekton
 spec:
   applicationImage: dev.local/appsodytest
   createKnativeService: false
