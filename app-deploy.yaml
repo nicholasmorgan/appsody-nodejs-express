@@ -29,13 +29,13 @@ metadata:
     stack.appsody.dev/url: https://github.com/appsody/stacks/tree/master/incubator/nodejs-express
   creationTimestamp: null
   labels:
-    image.opencontainers.org/title: appsodytest
+    image.opencontainers.org/title: appsody-test
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.4.9
   name: appsodytest
   namespace: appsody-tekton
 spec:
-  applicationImage: default-route-openshift-image-registry.cora-dev-cp4a-65663f1cbad6467d1fca826623c954a3-0000.eu-gb.containers.appdomain.cloud/appsody-tekton/appsody-test:v1
+  applicationImage: image-registry.openshift-image-registry.svc:5000/appsody-tekton/appsody-test
   createKnativeService: false
   expose: true
   livenessProbe:
