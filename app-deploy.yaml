@@ -35,7 +35,7 @@ metadata:
   name: appsodytest
   namespace: appsody-tekton
 spec:
-  applicationImage: default-route-openshift-image-registry.cora-dev-cp4a-65663f1cbad6467d1fca826623c954a3-0000.eu-gb.containers.appdomain.cloud/appsody-tekton/appsodytest
+  applicationImage: default-route-openshift-image-registry.cora-dev-cp4a-65663f1cbad6467d1fca826623c954a3-0000.eu-gb.containers.appdomain.cloud/appsody-tekton/appsody-test:v1
   createKnativeService: false
   expose: true
   livenessProbe:
